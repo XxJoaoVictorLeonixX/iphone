@@ -41,4 +41,51 @@ header{
 .check{
     color: #fff;
     border-bottom: 1px solid #fff;
-}   
+} 
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}  
+.main-text img{
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+.main-text h3{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+.main-text p{
+    margin-bottom: 1.5rem;
+}
+.main-text h6{
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    padding: 10px 25px;
+    background: #0071e3;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.btn:hover{
+    opacity: .85;
+}
+.text h5{
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content span{
+    width: 40px;
+}
